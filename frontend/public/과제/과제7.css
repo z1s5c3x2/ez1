@@ -1,0 +1,25 @@
+@charset "UTF-8";
+
+.proinfo{
+	border: solid 1px gray;
+	width: 500px;
+}
+.titleprice{
+	border-top :solid 1px gray;
+	
+}
+.infotext{
+	padding-left: 15px;
+	
+	
+}
+.hi{
+	color: orange;
+}
+.review{
+	margin-top: 20px;
+	margin-bottom: 20px;
+	
+}
+
+li{padding: 5px 20px;list-style-type: none}

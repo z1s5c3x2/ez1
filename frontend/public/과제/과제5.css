@@ -1,0 +1,37 @@
+@charset "UTF-8";
+*{padding:0px;margin: 0px;}
+
+.title{
+	border-left: solid 10px green;
+	margin-left: 10px;
+	padding-left: 10px;
+	
+}
+.c1{
+	width: 300px;
+	border-radius : 10px;
+	background: #e8e8e8;
+	border: solid 1px gray;
+	padding: 40px;
+	margin-top: 10px;
+	
+}
+.t1{
+	margin-bottom: 15px;
+}
+
+.c2{
+	margin-top: 20px;
+	margin-left: 50px;
+	border: solid 2px gray; 
+	border-radius : 20px;
+	width: 300px;
+	padding : 20px
+}
+.t2{
+	padding: 10px;
+	border-bottom: dotted 1px gray;
+}
+.re1{
+	text-align: right;
+}

@@ -1,0 +1,31 @@
+@charset "UTF-8";
+.num{
+	color: orange;
+	display: inline;
+}
+.title{
+	display: inline-block;
+}
+
+.content{
+	
+	background: #008080;
+	padding-left: 20px;
+	margin-bottom: 20px;
+	margin-right: 450px;
+	
+	
+}
+.conpar{
+	margin: 5px;
+	padding: 10px;
+	
+}
+.contenttext{
+	color: white;
+	margin: 5px
+}
+.hi{
+	color: orange;
+	display: inline;
+}
