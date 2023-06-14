@@ -1,0 +1,108 @@
+@charset "UTF-8";
+*{padding: 0px; margin: 0px; font-family: "맑은 고딕";}
+li{ list-style-type: none;}
+body{background-color: #eeeeee;}
+a{color: black;text-decoration: none;}
+
+#wrap
+{
+	width: 460px;
+	margin:0 auto;		
+}
+#header .h_logo img
+{
+	height: 50px;
+	 
+}
+#header .h_logo{text-align: center; margin: 50px 0px;}
+
+.signup_input{
+	border:1px solid #DEDEDE;
+	background-color: white;
+	display: flex;
+	padding: 10px;
+	align-items: center;
+	margin: 5px 0px 10px 0px;
+	
+}
+.input_id
+{
+	border :none;
+	width: 100%;
+	height: 30px;
+}
+*:focus
+{
+	outline: none;
+}
+.signup_at
+{
+	color: #AEAEAE;
+}
+.signup_icon
+{
+	width :25px;
+	height :25px;
+	background-image: url("https://static.nid.naver.com/images/ui/join/m_icon_pw_step.png");
+	background-size: 120px 75px;
+}
+.bbox
+{
+	display: flex;
+}
+.bir_m
+{
+
+	margin-left: 20px;
+	margin-right: 20px;
+}
+.bir_y ,.bir_m,.bir_d
+{
+	width: 120px;
+}
+
+.asd
+{
+	font-size: 10px;
+	color: #B3C5BF;
+}
+
+.phonebox
+{
+	display: flex;
+	justify-content: space-between;
+	margin: 10px 0px;
+}
+.btn_auth
+{
+	background-color:  #03C75A;
+	border:  none; color: white;
+	width: 120px;font-weight : bold;  
+	margin: 8px;
+}
+.input_phone{width: 300px;}
+.auth_input ,.input_auth{
+	background-color: #F5F6F7;
+	
+}
+.enter
+{
+	width: 100%;
+	height: 50px;
+	margin: 0 auto;
+}
+#footer
+{
+	text-align: center;
+}
+.ft a
+{
+	font-size: 8px;
+}
+.fs
+{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.fs img{height: 10px; padding: 10px;}

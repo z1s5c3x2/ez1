@@ -1,0 +1,43 @@
+@charset "UTF-8";
+.box1,.box2,.box3 ,.box4,.box5,.box6 ,.box7,.box8,.box9
+,.box10 , .box11 ,.box12
+{
+	width: 100px;
+	height: 100px;
+	background-color: yellow;
+	border: solid 1px red;
+}
+.box2
+{
+	position: relative;
+	left :50px;
+	top:50px;
+}
+
+.box5
+{
+	position: absolute;
+	left :50px;
+	top:50px;
+}
+
+.box8
+{
+	position: fixed;
+	right :50px;
+	bottom:50px;
+}
+
+.par{position: relative;
+border: solid 1px blue;}
+.box11 
+{
+	position: absolute;
+	top :100px;
+	left:100px;
+}
+.box12 
+{
+	position: static;
+	
+}
