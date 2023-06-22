@@ -1,0 +1,40 @@
+@charset "UTF-8";
+.btnBox
+{
+	display: flex;
+	width: 200px;
+	justify-content: space-between;
+	
+}
+.btnBox input
+{
+	width: 70px;
+	height: 70px;
+}
+.inputBox
+{
+	margin-bottom:10px;
+	display: flex;
+	flex-direction: column;
+	
+}
+.inputBox input
+{
+	margin-bottom:20px;
+	width: 200px;
+}
+.conBox
+{
+	border: 1px black solid;
+	padding: 40px 40px;
+	text-align: center;
+}
+
+#CONTENT
+{
+	margin: 0 auto;
+	padding-top:300px;
+	display: flex;
+	justify-content: space-between;
+	width: 700px;
+}
