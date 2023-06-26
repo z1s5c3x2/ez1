@@ -1,4 +1,4 @@
-
+/*
 let n = Number(prompt("횟수"))
 console.log('문제1')
 for(let x=0;x<n;x++)
@@ -148,7 +148,7 @@ for(let x=n;x>0;x--)
 	}
 	
 	console.log(`${_str}`)
-}*/
+}
 
 n = Math.round(n/2)
 for(let x=1;x<=n;x+= adsub)
@@ -215,5 +215,78 @@ for(let x=0;x<max;x+= adsub)
 
 	_str += "*"
 	console.log(`${_str}`)
-	
+}*/
+let starStart=1;
+
+console.log('문제11')
+let n = Number(prompt("횟수"))
+let starLast = n
+
+for(let y=1;y<=n;y++)
+{
+	_str =""
+	for(let x=1;x<=n;x++)
+	{
+		if(x<=starStart)
+		{
+			_str += "*"
+		}		
+		else if(x>=starLast)
+		{
+			_str += "*"
+		}
+		else
+		{
+
+			_str += " "
+		}
+	}
+	if(y<= n/2+1.5-2)
+	{
+		starStart+=1
+		starLast-=1
+	}
+	else
+	{
+		starLast +=1
+		starStart -=1
+	}
+	console.log(_str)
 }
+
+starStart=1
+
+console.log('문제11')
+n = Number(prompt("횟수"))
+starLast = n
+
+
+for(let y=1;y<=n;y++)
+{
+	_str =""
+	for(let x=1;x<=n;x++)
+	{
+		if(x>=starStart && x<=starLast)
+		{
+			_str += "*"
+		}
+		else{
+			_str += " "
+			}
+		
+	}
+	if(y<= n/2+1.5-2)
+	{
+		starStart+=1
+		starLast-=1
+	}
+	else
+	{
+		starLast +=1
+		starStart -=1
+	}
+	console.log(_str)
+}
+
+
+
