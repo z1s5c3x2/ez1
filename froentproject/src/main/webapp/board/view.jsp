@@ -6,9 +6,8 @@
 <meta charset="UTF-8">
 <title>Insert title here</title>
 </head>
-<body>
-<%@include file="../header.jsp" %>
-	<h4>게시판입니다</h4>
-	<%@include file="../footer.jsp" %>
+<body>	
+
+
 </body>
 </html>
