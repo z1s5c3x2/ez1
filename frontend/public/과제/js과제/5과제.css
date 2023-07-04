@@ -1,0 +1,21 @@
+@charset "UTF-8";
+.wrap{
+	
+	width:1000px;height: 600px;
+	background-image: url("./img/게임배경.jfif");
+	background-repeat:  no-repeat;
+	margin: 0 auto;
+	background-size: 100%;
+	position: relative;
+}
+
+.userbox{
+	width:100px;
+	height:100px;
+	background-repeat:no-repeat;
+	background-size: 90%;
+	background-image: url("./img/chr.png");
+	position: absolute;
+	top:400px; left:50px; 
+	
+}

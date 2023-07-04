@@ -7,17 +7,22 @@
 </head>
 <body>
 	<div class="inputdiv">
-	<div class="it1">날짜 : <input class="dateInput" type="date"/></div> 
-	<div class="it1">항목 : <input class="itemInput" type="text"/></div>
-	<div class="it1">금액 : <input class="priceInput" type="text"/></div>
-	<button onclick="ListAdd()"> 추가</button>
+	<div class="it1"><input class="dateInput" type="date"/></div> 
+	<div class="it1"><input class="itemInput" type="text" placeholder="항목"/></div>
+	<div class="it1"><input class="priceInput" type="text" placeholder="금액"/></div>
+	<div class="addfix">
+		<button onclick="ListAdd()"> 추가</button>
+		<button onclick="FixUpdateView()"> 수정</button>
+	</div>
+	
 	</div>
 	
 	<table border="1px" class="viewList">
 		<th>날짜</th>
 		<th>항목</th>
 		<th>금액</th>
-		<th>버튼</th>
+		<th>삭제</th>
+		
 	
 		
 		
