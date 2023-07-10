@@ -5,6 +5,9 @@
 
 <!-- css호출 -->
 <head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<!-- 부트스트랩에서 만든 CSS 적용 -->
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
    <link href="/frontendProject/css/index.css" rel="stylesheet">
 </head>
 
@@ -14,7 +17,7 @@
    <ul class="head_menu">
       <li><a href="/frontendProject/index.jsp"> home </a> </li><!-- a태그를 통한 다른페이지 이동 -->
       <li><a href="/frontendProject/kiosk/kiosk.jsp"> 키오스크 </a> </li>
-      <li><a href="/frontendProject/board/list.jsp"> 리스트 </a> </li>
+      <li><a href="/frontendProject/board/list.jsp"> 게시판 </a> </li>
       <li><a href="/frontendProject/calendar/calendar.jsp"> 캘린더 </a> </li>
    </ul>
    
