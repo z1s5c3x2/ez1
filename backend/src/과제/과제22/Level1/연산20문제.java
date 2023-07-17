@@ -23,7 +23,7 @@ public class 연산20문제 {
 		String _str3 = sc.nextLine();
 		System.out.println("--------------방문록--------------------");
 		System.out.println("| 순번  | 작성자  | 	내용 	| 날짜       |");
-		System.out.printf("|  1   | %s |%s |  %s    |\n",_str1,_str2,_str3);
+		System.out.printf("|  1    |%s      |%s          |  %s       |\n",_str1,_str2,_str3);
 		
 		
 		//------ 문제3 여기에 풀이-------//
@@ -104,7 +104,7 @@ public class 연산20문제 {
 		num = sc.nextInt();
 		System.out.println("몸무게 입력");
 		num1 = sc.nextInt();
-		float fresult = num1/((num/100)*(num/100));
+		float fresult = num1/((num/100.0f)*(num/100.0f));
 		System.out.println("bmi = "+fresult);
 		sc.nextLine();
 		//------ 문제15 여기에 풀이-------//
@@ -146,7 +146,7 @@ public class 연산20문제 {
 		System.out.printf("평균=%.2f",(num+num1+num2)/3.0);
 		sc.nextLine();
 		//------ 문제20 여기에 풀이-------//
-		System.out.println("아이디 입력 ");
+		System.out.println("\n아이디 입력 ");
 		_str1 = sc.nextLine();
 		System.out.println("비밀번호 입력");
 		_str2 = sc.nextLine();
