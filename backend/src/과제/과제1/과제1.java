@@ -4,6 +4,7 @@ public class 과제1 {
 	
 	public static void main(String[] args)
 	{
+		String asdfg;
 		
 		//1. 4번
 		//2. 2 3 6 7번
