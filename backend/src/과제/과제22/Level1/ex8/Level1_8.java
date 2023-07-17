@@ -14,42 +14,39 @@ public class Level1_8 {
 		String boardlist = "";
 		String footer = "================================\n";
 		String output = "";
-		int num = 1;
+		
 		/* 문제풀이 위치 */
+		int num = 1;
 		System.out.print("[1]작성자:");
 		boardlist += (num++)+"\t "+scanner.nextLine()+"\t\t ";
 		System.out.print("[1]방문록:");
 		boardlist += scanner.nextLine();
-		System.out.println(header+boardlist);
-		System.out.println(footer);
+		System.out.println(header+boardlist+"\n"+footer);
+		
 
 		System.out.print("[2]작성자:");
 		boardlist += "\n"+(num++)+"\t "+scanner.nextLine()+"\t\t ";
 		System.out.print("[2]방문록:");
 		boardlist += scanner.nextLine();
-		System.out.println(header+boardlist);
-		System.out.println(footer);
+		System.out.println(header+boardlist+"\n"+footer);
 
 		System.out.print("[3]작성자:");
 		boardlist += "\n"+(num++)+"\t "+scanner.nextLine()+"\t\t ";
 		System.out.print("[3]방문록:");
 		boardlist += scanner.nextLine();
-		System.out.println(header+boardlist);
-		System.out.println(footer);
+		System.out.println(header+boardlist+"\n"+footer);
 
 		System.out.print("[4]작성자:");
 		boardlist += "\n"+(num++)+"\t "+scanner.nextLine()+"\t\t ";
 		System.out.print("[4]방문록:");
 		boardlist += scanner.nextLine();
-		System.out.println(header+boardlist);
-		System.out.println(footer);
+		System.out.println(header+boardlist+"\n"+footer);
 
 		System.out.print("[5]작성자:");
 		boardlist += "\n"+(num++)+"\t "+scanner.nextLine()+"\t\t ";
 		System.out.print("[5]방문록:");
 		boardlist += scanner.nextLine();
-		System.out.println(header+boardlist);
-		System.out.println(footer);
+		System.out.println(header+boardlist+"\n"+footer);
 		//boardlist += 
 
 		
