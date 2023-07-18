@@ -12,7 +12,7 @@ public class Level3_6 {
 		Scanner scanner = new Scanner(System.in);
 		
 		/* 문제풀이 위치 */
-		int num = 000000;
+		int num = 0;
 		int _ch;
 		while(true)
 		{
