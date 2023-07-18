@@ -46,22 +46,22 @@ public class Level3_6 {
 					System.out.println("예약 취소 좌석 입력");
 					_ch = scanner.nextInt();
 					if (_ch == 1) {
-						if(num%10 <1){System.out.println("예약된 자리 입니다");}
+						if(num%10 <1){System.out.println("빈자리 입니다");}
 						num -= 1;
 					} else if (_ch == 2) {
-						if(num%100 <10){System.out.println("예약된 자리 입니다");}
+						if(num%100 <10){System.out.println("빈자리 입니다");}
 						num -= 10;
 					} else if (_ch == 3) {
-						if(num%1000 < 100){System.out.println("예약된 자리 입니다");}
+						if(num%1000 < 100){System.out.println("빈자리 입니다");}
 						num -= 100;
 					} else if (_ch == 4) {
-						if(num%10000 < 1000){System.out.println("예약된 자리 입니다");}
+						if(num%10000 < 1000){System.out.println("빈자리 입니다");}
 						num -= 1000;
 					} else if (_ch == 5) {
-						if(num%1000000 < 100000){System.out.println("예약된 자리 입니다");}
+						if(num%1000000 < 100000){System.out.println("빈자리 입니다");}
 						num -= 10000;
 					} else if (_ch == 6) {
-						if(num%1000000 < 100000){System.out.println("예약된 자리 입니다");}
+						if(num%1000000 < 100000){System.out.println("빈자리 입니다");}
 						num -= 100000;
 					}
 					break;
