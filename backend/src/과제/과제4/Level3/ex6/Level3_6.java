@@ -22,47 +22,20 @@ public class Level3_6 {
 				case 1:
 					System.out.println("예약 좌석 입력");
 					_ch = scanner.nextInt();
-					if (_ch == 1) {
-						if(num%10 >=1){System.out.println("예약된 자리 입니다");}
-						num += 1;
-					} else if (_ch == 2) {
-						if(num%100 >=10){System.out.println("예약된 자리 입니다");}
-						num += 10;
-					} else if (_ch == 3) {
-						if(num%1000 >=100){System.out.println("예약된 자리 입니다");}
-						num += 100;
-					} else if (_ch == 4) {
-						if(num%10000 >=1000){System.out.println("예약된 자리 입니다");}
-						num += 1000;
-					} else if (_ch == 5) {
-						if(num%1000000 >=100000){System.out.println("예약된 자리 입니다");}
-						num += 10000;
-					} else if (_ch == 6) {
-						if(num%1000000 >=1){System.out.println("예약된 자리 입니다");}
-						num += 100000;
+					if(num%(Math.pow(10,(_ch))) >= Math.pow(10,(_ch-1))){System.out.println("예약된 자리 입니다");}
+					else{
+						System.out.println(_ch + "자리 예약 완료");
+						num +=  Math.pow(10,(_ch-1));
 					}
 					break;
 				case 2:
 					System.out.println("예약 취소 좌석 입력");
 					_ch = scanner.nextInt();
-					if (_ch == 1) {
-						if(num%10 <1){System.out.println("빈자리 입니다");}
-						num -= 1;
-					} else if (_ch == 2) {
-						if(num%100 <10){System.out.println("빈자리 입니다");}
-						num -= 10;
-					} else if (_ch == 3) {
-						if(num%1000 < 100){System.out.println("빈자리 입니다");}
-						num -= 100;
-					} else if (_ch == 4) {
-						if(num%10000 < 1000){System.out.println("빈자리 입니다");}
-						num -= 1000;
-					} else if (_ch == 5) {
-						if(num%1000000 < 100000){System.out.println("빈자리 입니다");}
-						num -= 10000;
-					} else if (_ch == 6) {
-						if(num%1000000 < 100000){System.out.println("빈자리 입니다");}
-						num -= 100000;
+					if(num%(Math.pow(10,(_ch))) < Math.pow(10,(_ch-1))){System.out.println("빈자리 입니다");}
+					else
+					{
+						System.out.println(_ch+"번자리 예약 취소");
+						num -= Math.pow(10,(_ch-1));
 					}
 					break;
 				default:
