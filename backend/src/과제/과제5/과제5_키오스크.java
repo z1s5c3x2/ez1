@@ -21,6 +21,7 @@ public class 과제5_키오스크 {
 			//{
 		//		System.out.println(재고관리.split(" ")[i]);
 		//	}
+			
 			/* 문제풀이 위치 */
 			if(ch != 4)
 			{
