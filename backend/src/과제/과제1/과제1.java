@@ -5,7 +5,7 @@ public class 과제1 {
 	public static void main(String[] args)
 	{
 		String asdfg;
-		
+		System.out.print("\033[H\033[2J");  
 		//1. 4번
 		//2. 2 3 6 7번
 		/*3.
