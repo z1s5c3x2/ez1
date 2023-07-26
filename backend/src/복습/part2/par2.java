@@ -32,10 +32,8 @@ public class par2 {
 					if(ch==1) { _pro = "콜라";}
 					if(ch==2) { _pro = "사이다";}
 					if(ch==3) { _pro = "환타";}
-
 					System.out.printf("안내) %s 담았습니다.\n",_pro);
 				}
-				
 			}
 			else
 			{
@@ -43,10 +41,12 @@ public class par2 {
 				String _pr = "";
 				for(int i = 0;i<3;i++)
 				{
-					if(i==0) { _pr += "콜라\t";}
-					if(i==1) { _pr += "사이다\t";}
-					if(i==2) { _pr += "환타\t";}
-					_pr += 재고관리.split("\n")[i].split(",")[1]+"\t"+재고관리.split("\n")[i].split(",")[1]+"\n";
+					if( Integer.valueOf(재고관리.split("\n")[i].split(",")[1]) >0){
+						if(i==0) { _pr += "콜라\t";}
+						if(i==1) { _pr += "사이다\t";}
+						if(i==2) { _pr += "환타\t";}
+						_pr += 재고관리.split("\n")[i].split(",")[1]+"\t"+재고관리.split("\n")[i].split(",")[2]+"\n";
+					}					
 					result += Integer.valueOf(재고관리.split("\n")[i].split(",")[1]) * Integer.valueOf(재고관리.split("\n")[i].split(",")[2]);
 				}
 				System.out.println("제품명\t수량\t가격");
@@ -70,16 +70,9 @@ public class par2 {
 						}
 						
 					}
-					else
-					{
-						System.out.println("안내) 잔액 부족");
-					}
+					else{System.out.println("안내) 잔액 부족");}
 				}
-				else
-				{
-					System.out.println("안내) 결제 취소");
-				
-				}
+				else{System.out.println("안내) 결제 취소");}
 					if(!isBuy)
 					{
 						for(int i=0;i<3;i++)
@@ -90,8 +83,5 @@ public class par2 {
 					}
 			}
 		}
-		
-
 	}
-
 }
