@@ -5,6 +5,7 @@ import java.util.Scanner;
 public class par2 {
 
 	public static void main(String[] args) {
+		//11분 
 		String 재고관리 = "10,0,300\n3,0,200\n2,0,100\n";
 		Scanner sc = new Scanner(System.in);
 		int ch = 0;
