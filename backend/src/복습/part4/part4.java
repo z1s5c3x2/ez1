@@ -108,9 +108,10 @@ public class part4 {
 				proList = new ArrayList<String>();
 				while(true)
 				{
-				String __str = br.readLine();
-				if(__str == null){break;}
-				proList.add(__str);
+					br = new BufferedReader(new FileReader(_path));
+					String __str = br.readLine();
+					if(__str == null){break;}
+					proList.add(__str);
 				
 				}
 			}
