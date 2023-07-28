@@ -13,7 +13,7 @@ public class part4 {
 
 	public static void main(String[] args) throws IOException{
 		String _path = "C:\\Users\\504\\git\\ez1\\backend\\src\\복습\\part4\\재고관리.txt";
-		
+		//20분 +- 1분
 		
 		ArrayList<String> proList = new ArrayList<String>();
 		BufferedReader br = new BufferedReader(new FileReader(_path));
@@ -104,17 +104,20 @@ public class part4 {
 					}
 					bw.close();
 				}
-				else{System.out.println("결제가 실패하였습니다 금액 부족");
-				proList = new ArrayList<String>();
-				while(true)
-				{
+				else{
+					System.out.println("결제가 실패하였습니다 금액 부족");
+					proList = new ArrayList<String>();
 					br = new BufferedReader(new FileReader(_path));
-					String __str = br.readLine();
-					if(__str == null){break;}
-					proList.add(__str);
+					while(true)
+					{
+						
+						String __str = br.readLine();
+						if(__str == null){break;}
+						proList.add(__str);
 				
+					}
+					System.out.println("?");
 				}
-			}
 			}
 			
 		}
