@@ -3,6 +3,7 @@ package 복습.part6;
 import java.util.Scanner;
 
 public class par6 {
+	//8분 30초 입니다
 	static Member[] mem = new Member[100];
 	static Scanner sc = new Scanner(System.in);
 /*
