@@ -7,8 +7,11 @@ public class EX2_실행 {
 		Driver driver = new Driver();
 		Bus asd = new Bus();
 		asd.name = "asdfsdfsdf";
+		Bus sdf = new Bus();
+		System.out.println(Bus.name);
+		System.out.println(sdf.name);
 		
-		driver.drive(0, asd);
+		driver.drive(0, sdf);
 		/*
 		// 1. 부모객체
 			// Driver클래스의 drive메서드와 타입이 동일하기에 당연히 가능하다

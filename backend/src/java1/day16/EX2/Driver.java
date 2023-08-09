@@ -11,6 +11,7 @@ public class Driver {
 		System.out.println("vehicle 타입확인 : "+(vehicle instanceof Bus));
 		System.out.println("vehicle 타입확인 : "+(vehicle instanceof Taxi));
 		System.out.println(vehicle.name);
+		System.out.println("여기");
 		vehicle.run();
 
 		
