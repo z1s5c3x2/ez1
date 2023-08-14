@@ -1,4 +1,4 @@
-package 과제.과제11.Model.dao;
+package 과제.과제11.model.dao;
 
 import java.sql.Connection;
 import java.sql.DriverManager;

@@ -1,4 +1,4 @@
-package 과제.과제11.Model.dto;
+package 과제.과제11.model.dto;
 
 public class MemberDto {
 	// 1. 필드
