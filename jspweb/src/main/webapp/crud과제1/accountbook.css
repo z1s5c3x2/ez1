@@ -1,0 +1,31 @@
+@charset "UTF-8";
+
+.inputarea
+{
+	margin: 0 auto;
+	width: 800px;
+}
+.inputarea input
+{
+	margin-top: 20px;
+}
+.wrap
+{
+	margin: 0 auto;
+	width: 800px;	
+}
+.viewbox
+{
+	margin-top: 50px;
+}
+.boxtop span
+{
+	width: 30000px;
+	height: 50px;
+	
+}
+.boxcon span
+{
+	padding-right : 80px;
+	height: 50px;
+}
