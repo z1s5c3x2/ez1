@@ -11,7 +11,7 @@ public class LibraryDto {
 	public LibraryDto() {
 		// TODO Auto-generated constructor stub
 	}
-
+	
 	public LibraryDto(int lno, String lname, String lphone, int lseat) {
 		super();
 		this.lno = lno;

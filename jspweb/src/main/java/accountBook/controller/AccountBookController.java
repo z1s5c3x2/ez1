@@ -13,7 +13,6 @@ import com.fasterxml.jackson.databind.ObjectMapper;
 
 import accountBook.model.dao.AccountBookDao;
 import accountBook.model.dto.AccountBookDto;
-import model.dao.VisitDao;
 
 /**
  * Servlet implementation class accountBookController
@@ -26,7 +25,7 @@ public class AccountBookController extends HttpServlet {
         super();
         
     }
-    
+    	
     
     // 1. 등록
 	protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {

@@ -1,0 +1,21 @@
+@charset "UTF-8";
+.viewbox{
+	margin-bottom: 100px;
+}
+.boxitem
+{
+	display: flex;
+	margin-bottom: 50px;
+	border-bottom: 1px solid black;
+	width: 600px;
+	
+}
+
+.boxitem div ,.boxitem img
+{
+	width: 100px;
+	height: 100px;
+	text-align: center;
+	margin:  0 auto;
+	
+}
