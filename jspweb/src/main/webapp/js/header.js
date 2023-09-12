@@ -40,7 +40,9 @@ function logout(){
 			location.href="/jspweb/index.jsp"; 
 		} , error : e => {} 
 	})
-} // f end 
+}
+
+ // f end 
 
 /*
 	응답받은 r 상태 확인 

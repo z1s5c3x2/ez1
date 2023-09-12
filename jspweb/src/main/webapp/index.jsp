@@ -8,6 +8,7 @@
 </head>
 <body>
 	<%@include file="header.jsp" %>
+	<button onclick="apitest()"> fdgfdgfg</button>
 	
 	<%@include file="footer.jsp" %>
 </body>
