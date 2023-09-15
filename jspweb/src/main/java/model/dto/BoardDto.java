@@ -1,5 +1,5 @@
 package model.dto;
-
+import lombok.*;
 public class BoardDto { /* 게시물 , 카테고리 */
 	// 필드 
 	private int bno;

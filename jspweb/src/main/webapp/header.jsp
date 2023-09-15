@@ -10,20 +10,21 @@
 <body>
 	<!-- 헤더 -->
 	<div id="header">	
-
+		
 		<div class=mainlogo> <!-- 로고 -->
 			<a href="/jspweb/index.jsp">
-				<img alt="" src="/jspweb/img/mainlogo.png" />
+				<img alt="" src="/jspweb/img/ezenlogo.png" />
 			</a>
 		</div>
 		<ul class="mainmenu"> 	<!-- 본메뉴 -->
 			<li> <a href="/jspweb/visitlog/visitlog.jsp">방문록</a> </li>
 			<li> <a href="/jspweb/board/list.jsp">게시판</a> </li>
-			<li> <a href="/jspweb/datago/datago.jsp">00데이터</a> </li>
+			<li> <a href="/jspweb/datago/datago.jsp">공공데이터</a> </li>
 			<li> <a href="/jspweb/chatting/chatting.jsp">채팅</a> </li>
-			<li> <a href="/jspweb/가계부/accountBook.jsp">(과1)가계부</a> </li>
-			<li> <a href="/jspweb/library/library.jsp">(과2)열람실</a> </li>
-			<li> <a href="/jspweb/hrm/hrm.jsp">(과3)</a> </li>
+			<li> <a href="/jspweb/product/register.jsp">제품등록</a> </li>
+			<li> <a href="#">(과1)가계부</a> </li>
+			<li> <a href="#">(과2)열람실</a> </li>
+			<li> <a href="#">(과3)</a> </li>
 		</ul>
 		<!-- 서브메뉴 : js에서 로그인상태에 따라 html 구성 대입 -->
 		<ul class="submenu"> </ul>
@@ -33,6 +34,7 @@
 	<!-- 최신 JQUERY import ( ajax() 사용할 js파일부터 위에서 호출)  -->
 	<script  src="http://code.jquery.com/jquery-latest.min.js"></script>
 	<script  src="/jspweb/js/header.js"></script>
+	
 </body>
 </html>
 
@@ -53,9 +55,3 @@
 		- 헤더파일은 불특정 페이지 경로에서 사용되므로 절대경로 링크 권장 
 		(생략가능)/jspweb/visitlog/visitlog.jsp
  -->
-
-
-
-
-
-
