@@ -9,7 +9,6 @@
 <body>
 
 	<%@include file = "../header.jsp" %>
-	
 	<div class="webcontainer">
 		<form class="registerForm">
 		

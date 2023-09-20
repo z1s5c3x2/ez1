@@ -21,7 +21,7 @@ navigator.geolocation.getCurrentPosition( e => {
 	    };
 	    
 	var map = new kakao.maps.Map(mapContainer, mapOption); // 지도를 생성합니다
-	
+
 	// 지도를 클릭한 위치에 표출할 마커입니다
 	var marker = new kakao.maps.Marker({ 
 	    // 지도 중심좌표에 마커를 생성합니다 
@@ -265,12 +265,43 @@ function register2(){
 	
 }
 */
-
-
-
-
-
-
+function getNewList()
+{
+	$.ajax({
+		url : "/jspweb/ProductInfoController",
+		method : "get" ,
+		data: {type:'newList'},
+		success:r=>{}
+	})
+}
+function getMpaList()
+{
+	let tmp = map.getBounds()
+	$.ajax({
+		url : "/jspweb/ProductInfoController",
+		method : "get" ,
+		data: {type:'maplist',ha:tmp.ha,oa:tmp.oa},
+		success:r=>{}
+	})
+}
+function getProductInfo()
+{
+	$.ajax({
+		url : "/jspweb/ProductInfoController",
+		method : "get" ,
+		data: {type:'productInfo',pno:pno},
+		success:r=>{}
+	})
+}
+function getAdminList()
+{
+	$.ajax({
+		url : "/jspweb/ProductInfoController",
+		method : "get" ,
+		data: {type:'adminList',page:0,id:sessionStorage.getItem('id')},
+		success:r=>{}
+	})
+}
 
 
 

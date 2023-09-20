@@ -1,4 +1,3 @@
-
 let 헤더변수 = "헤더변수데이터";
 // 1. 현재 로그인된 회원정보 요청 
 let loginState = false; /* 로그인 상태 저장하는 변수  true:로그인중 false 비로그인*/ 
@@ -21,6 +20,7 @@ function getMemberInfo(){
 				loginState = true; loginMid = r.mid;
 				html += ` <li> ${ r.mid } 님 </li>
 						<li> <img class="hmimg" src="/jspweb/member/img/${ r.mimg }" /> </li>
+						<li> <a href="/jspweb/product/wishlist.jsp">찜목록</a> </li>
 						<li> <a href="/jspweb/member/info.jsp">마이페이지</a> </li>
 						<li> <a onclick="logout()" href="#">로그아웃</a> </li> `
 				if( r.mid == "admin"){ } // 로그인 했는데 관리자메뉴
